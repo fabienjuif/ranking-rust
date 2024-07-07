@@ -3,6 +3,8 @@
 ## TODO
 - [ ] Error handling in the API (properly log it too)
 - [ ] Maybe add traces? (SPAN) in the API
+- [ ] Validators in the API (not empty string for example)
+- [ ] Error hanndling in the repo
 - [ ] First Svelte component
 
 ## Rust
@@ -16,7 +18,7 @@
 2. [Install gcloud](https://cloud.google.com/sdk/docs/install)
 3. `gcloud components update`
 4. `gcloud auth application-default login`
-5. `gcloud emulators firestore start`
+5. `make start-firestore`
 
 ## Start the API
 
