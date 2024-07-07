@@ -1,0 +1,17 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.5", features = ["http2"] }
+chrono = "0.4.38"
+firestore = "0.42"
+serde = "1.0.204"
+tokio = { version = "1.38.0", features = ["full"] }
+tracing = { version = "0.1.40", features = ["async-await"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+nanoid = "0.4.0"
+metrics = "0.23.0"
+metrics-exporter-prometheus = "0.15.1"
+metrics-util = "0.17.0"
